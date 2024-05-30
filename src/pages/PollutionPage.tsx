@@ -5,7 +5,7 @@ import {Column} from '@ant-design/charts';
 
 const geocoderApiKey = process.env.REACT_APP_YANDEX_GEOCODER_API_KEY
 const pollutionApiKey = process.env.REACT_APP_OPENWEATHERMAP_API_KEY
-console.log(process.env.REACT_APP_YANDEX_GEOCODER_API_KEY);
+
 type FieldType = {
     address?: string;
 };
